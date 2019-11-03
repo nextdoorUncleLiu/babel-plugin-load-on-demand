@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadOnDemand 1`] = `"import Dialog from \\"@mc/mc-components/packages/Dialog\\";"`;

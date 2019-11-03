@@ -1,0 +1,41 @@
+{
+  "name": "babel-plugin-load-on-demand",
+  "version": "1.0.2",
+  "description": "按需加载的一个 babel 插件",
+  "main": "lib/index.js",
+  "dependencies": {
+    "babel-jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf lib && babel src --out-dir lib --ignore __tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextdoorUncleLiu/babel-plugin-load-on-demand.git"
+  },
+  "author": "xichen Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nextdoorUncleLiu/babel-plugin-load-on-demand/issues"
+  },
+  "files": [
+    "package.json",
+    "src",
+    "lib",
+    "README.md"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "homepage": "https://github.com/nextdoorUncleLiu/babel-plugin-load-on-demand#readme"
+}
