@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-load-on-demand",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "按需加载的一个 babel 插件",
   "main": "lib/index.js",
   "dependencies": {
